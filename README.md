@@ -29,6 +29,7 @@ The below table describe the model complexity and resource required for the mode
 | 2    | ResNet-50       | 25.55                 | 102.5           | 4.1    | 224        | 5.47                   | 4624                                       | 123                                 |
 | 3    | ResNet-101      | 44.54                 | 178.8           | 7.8    | 224        | 10.6                   | 6084                                       | 200                                 |
 | 4    | ResNet-152      | 60.19                 | 241.7           | 11.6   | 224        | 14.4                   | 7866                                       | 285                                 |
+|||||||||
 | 5    | EfficientNet-B0 | 5.28                  | 21.5            | 0.41   | 224        | 7.51                   | 4254                                       | 74                                  |
 | 6    | EfficientNet-B1 | 7.79                  | 31.6            | 0.61   | 224        | 10.27                  | 5398                                       | 105                                 |
 | 7    | EfficientNet-B2 | 9.1                   | 36.9            | 0.7    | 224        | 13.49                  | 5570                                       | 111                                 |
