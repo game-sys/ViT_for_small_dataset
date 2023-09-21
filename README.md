@@ -22,13 +22,13 @@ We will use the below-described datasets to do our initial experiments
 ## Model Complexity
 
 The below table describe the model complexity and resource required for the model 
+
 | Sno. | Model           | Parameters (Millions) | Model Size (MB) | GFLOPs | Image Size | Inference Latency (ms) | GPU Memory Consumption for batch size 32 (MB) | Time to train 1 batch size of 32 (ms) |
 |------|-----------------|-----------------------|-----------------|--------|------------|------------------------|--------------------------------------------|-------------------------------------|
 | 1    | ResNet-18       | 11.68                 | 46.8            | 1.8    | 224        | 2.57                   | 2194                                       | 41                                  |
 | 2    | ResNet-50       | 25.55                 | 102.5           | 4.1    | 224        | 5.47                   | 4624                                       | 123                                 |
 | 3    | ResNet-101      | 44.54                 | 178.8           | 7.8    | 224        | 10.6                   | 6084                                       | 200                                 |
 | 4    | ResNet-152      | 60.19                 | 241.7           | 11.6   | 224        | 14.4                   | 7866                                       | 285                                 |
-|------|-----------------|-----------------------|-----------------|--------|------------|------------------------|--------------------------------------------|-------------------------------------|
 | 5    | EfficientNet-B0 | 5.28                  | 21.5            | 0.41   | 224        | 7.51                   | 4254                                       | 74                                  |
 | 6    | EfficientNet-B1 | 7.79                  | 31.6            | 0.61   | 224        | 10.27                  | 5398                                       | 105                                 |
 | 7    | EfficientNet-B2 | 9.1                   | 36.9            | 0.7    | 224        | 13.49                  | 5570                                       | 111                                 |
@@ -41,6 +41,7 @@ The below table describe the model complexity and resource required for the mode
 | 20   | MobileNet-V2    | 3.5                   | 14.3            | 0.3    | 224        | 4.3                    | 3822                                       | 55                                  |
 | 21   | MobileNet-V3-S  | 2.54                  | 10.3            | 0.06   | 224        | 4.1                    | 1718                                       | 21                                  |
 | 22   | MobileNet-V3-L  | 5.48                  | 22.2            | 0.2    | 224        | 5                      | 2866                                       | 42                                  |
+
 
 
 
