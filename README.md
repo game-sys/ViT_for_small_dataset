@@ -70,27 +70,5 @@ Below are the initial experiments
 
 
 
-## Usage
 
-Explain how to use your project, including any configuration options, parameters, or commands. Provide examples if applicable.
-
-## Results
-
-If you have obtained any results or insights from your project, share them here. Include tables, graphs, or visualizations if possible.
-
-## Contributing
-
-Explain how others can contribute to your project if you welcome contributions from the community.
-
-## License
-
-Specify the license under which your project is shared.
-
-## Acknowledgments
-
-If you would like to thank anyone, provide acknowledgments here.
-
-## Contact
-
-Provide contact information or ways for users to get in touch with you or your team.
 
