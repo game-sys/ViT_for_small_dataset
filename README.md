@@ -91,3 +91,6 @@ In this approach, we initialize all components of the ViT with Random weights, e
 #### Approach 2: Keeping All Components with ImageNet Weights Except One with Random:
 In this approach, we initialize all components with ImageNet weights, except for one specific component, which is initialized with random weights.
 
+#### Approach 3: Utilizing Pretrained Weights:
+In this approach, I will use the trained weights instead of ImageNet. However, this time I will fix these weights (no training on certain components). Then apply Approach 1 and 2.
+
