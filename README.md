@@ -75,6 +75,15 @@ Below are the initial experiments
 
 In this experiment, I aim to analyze the impact of different components within the Vision Transformer (ViT) architecture when training from scratch on small datasets. Understanding the role of individual components can help us optimize our model for specific tasks and datasets.
 
+#### The components we will analyze are as follows:
+
+1- Patch Embedding: This component is responsible for dividing the input image into patches and converting them into embedded representations.
+
+2- Multi-Head Self-Attention: Multi-Head Self-Attention is a crucial component for capturing contextual information in images.
+
+3- MLP (Multi-Layer Perceptron): The MLP component typically follows the self-attention layers and is responsible for processing and transforming the information captured by the self-attention mechanism.
+
+4- Classification Layer: The classification layer is the final component that produces the model's output predictions.
 
 #### Approach 1: Keeping All Components with Random Weights Except One with ImageNet:
 In this approach, we initialize all components of the ViT with Random weights, except for one specific component, which is initialized with ImageNet weights.
