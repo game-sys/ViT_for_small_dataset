@@ -69,6 +69,16 @@ Below are the initial experiments
 | 2    | ViT/L/32   | 38.85      |          | 9.1     |        |
 
 
+## Future Experiments:
+
+### Component Analysis Strategy
+
+In this experiment, I aim to analyze the impact of different components within the Vision Transformer (ViT) architecture when training from scratch on small datasets. Understanding the role of individual components can help us optimize our model for specific tasks and datasets.
 
 
+#### Approach 1: Keeping All Components with Random Weights Except One with ImageNet:
+In this approach, we initialize all components of the ViT with Random weights, except for one specific component, which is initialized with ImageNet weights.
+
+#### Approach 2: Keeping All Components with ImageNet Weights Except One with Random:
+In this approach, we initialize all components with ImageNet weights, except for one specific component, which is initialized with random weights.
 
