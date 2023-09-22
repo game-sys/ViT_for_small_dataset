@@ -61,7 +61,7 @@ Below are the initial experiments
 | 8    | ViT/B/32         | 90.53      | 81.1     | 88.22   | 97.92  |
 | 9    | ViT/L/32         | 91.23      | 81.49    | 89.04   | 99.06  |
 
-## Initially training the ViT without ImageNet weights
+### Initially training the ViT without ImageNet weights
 
 | Sno. | Model      | Flower-102 | Food-101 | Pets-37 | Sun397 |
 | ---- | ---------- | ---------- | -------- | ------- | ------ |
