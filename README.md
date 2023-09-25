@@ -1,6 +1,12 @@
 
 # How to train ViTs with small datasets?
 
+## Literature Review
+
+Please check the sheet link for the literature review already done and method proposed by researchers
+
+https://docs.google.com/spreadsheets/d/1N2FHDpmy4WF_foRt4AFme9t88mO28W0dJv8siDDh2b8/edit?usp=sharing
+
 ## Overview
 
 This project focuses on training ViT on small datasets
