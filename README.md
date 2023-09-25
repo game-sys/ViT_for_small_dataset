@@ -16,12 +16,12 @@ We will use the below-described datasets to do our initial experiments
 | Oxford Flowers102 | 2,040        | 6,149       | 102     | 20                             |
 | Food 101          | 25,250       | 75,750      | 101     | 750                            |
 | Pet37             | 3,680        | 3,669       | 37      | 100                            |
-| Sun397            | 87,003       | 21,750      | 397     | 100-461 (varies among classes) |
+| Sun397            | 80,129       | 19,850      | 397     | 100-461 (varies among classes) |
 
 
 ## Model Complexity
 
-The below table describe the model complexity and resource required for the model 
+The below table describes the model complexity and resources required for the model 
 
 | Sno. | Model           | Parameters (Millions) | Model Size (MB) | GFLOPs | Image Size | Inference Latency (ms) | GPU Memory Consumption for batch size 32 (MB) | Time to train 1 batch size of 32 (ms) |
 |------|-----------------|-----------------------|-----------------|--------|------------|------------------------|--------------------------------------------|-------------------------------------|
@@ -66,7 +66,7 @@ Below are the initial experiments
 | Sno. | Model      | Flower-102 | Food-101 | Pets-37 | Sun397 |
 | ---- | ---------- | ---------- | -------- | ------- | ------ |
 | 1    | ViT/B/32   | 37.85      | 45.25    | 13.81   | 99.84  |
-| 2    | ViT/L/32   | 38.85      |          | 9.1     |        |
+| 2    | ViT/L/32   | 38.85      | 38.83         | 9.1     |        |
 
 
 ## Future Experiments:
