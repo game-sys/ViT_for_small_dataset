@@ -57,15 +57,12 @@ Below are the initial experiments
 
 | Sno. | Model            | Flower-102 | Food-101 | Pets-37 | Sun397 |
 | ---- | ---------------- | ---------- | -------- | ------- | ------ |
-<!--- | 1    | EfficientNet-B0  | 96.35      | 86.1     | 92.01   | -      |
-| 2    | MobileNet-V2     | 93.72      | 83.08    | 88.33   | -      |
-| 3    | MobileNet-V3-S   | 86.56      | 77.58    | 81.93   | -      |
-| 4    | MobileNet-V3-L   | 93.34      | 83.01    | 86.62   | -      | -->
 | 1    | ResNet18          | 90.09      | 80.76    | 88.57   | 86.58  |
 | 2    | ResNet50          | 95.10      | 88.06    | 93.04   | 97.31  |
 | 3    | ResNet101         | -          | -        | -       | -      |
 | 4    | ViT/B/32          | 90.53      | 81.1     | 88.22   | -      |
 | 5    | ViT/L/32          | 91.23      | 81.49    | 89.04   | -      |
+
 
 
 ### Initially training the ViT without ImageNet weights
